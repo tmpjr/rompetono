@@ -16,7 +16,7 @@ bool Game::init()
         return false;
     }
 
-    window = SDL_CreateWindow("Romperador", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
+    window = SDL_CreateWindow("Rompetono", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
         WIDTH, HEIGHT, SDL_WINDOW_SHOWN);
     if (window == nullptr) {
         printf("Could not create SDL Window: %s", SDL_GetError());
